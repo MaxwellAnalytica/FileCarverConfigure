@@ -1,0 +1,37 @@
+{
+    "actived": true,
+    "algorithm": "",
+    "description": "png file carve",
+    "developerId": 10,
+    "extension": "png",
+    "footer": {
+        "characters": [
+            {
+                "context": "49454E44",
+                "hex": true,
+                "padding": 4,
+                "size": 4
+            }
+        ],
+        "logic": "&"
+    },
+    "header": {
+        "characters": [
+            {
+                "context": "89504E470D0A1A0A",
+                "hex": true,
+                "offset": 0,
+                "size": 8
+            },
+            {
+                "context": "49484452",
+                "hex": true,
+                "offset": 12,
+                "size": 4
+            }
+        ],
+        "logic": "&"
+    },
+    "option": "raw",
+    "truncate": 0
+}
