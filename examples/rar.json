@@ -1,0 +1,36 @@
+{
+    "actived": true,
+    "algorithm": "",
+    "description": "rar file carve",
+    "developerId": 0,
+    "extension": "rar",
+    "footer": {
+        "characters": [
+            {
+                "context": "C43D7B00400700",
+                "hex": true,
+                "padding": 0,
+                "size": 7
+            }
+        ],
+        "logic": "&"
+    },
+    "header": {
+        "characters": [
+            {
+                "context": "526172211A0700",
+                "hex": true,
+                "offset": 0,
+                "size": 7
+            }
+        ],
+        "logic": "&"
+    },
+    "name": {
+        "offset": 46,
+        "padding": 4,
+        "size": 2
+    },
+    "option": "raw",
+    "truncate": 0
+}

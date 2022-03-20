@@ -1,0 +1,37 @@
+{
+    "actived": true,
+    "algorithm": "",
+    "description": "jpeg file carve",
+    "developerId": 9,
+    "extension": "jpeg",
+    "footer": {
+        "characters": [
+            {
+                "context": "FFD9",
+                "hex": true,
+                "padding": 0,
+                "size": 2
+            }
+        ],
+        "logic": "&"
+    },
+    "header": {
+        "characters": [
+            {
+                "context": "FFD8FFE000",
+                "hex": true,
+                "offset": 0,
+                "size": 5
+            },
+            {
+                "context": "FFD8FFE100",
+                "hex": true,
+                "offset": 0,
+                "size": 5
+            }
+        ],
+        "logic": "|"
+    },
+    "option": "raw",
+    "truncate": 0
+}
